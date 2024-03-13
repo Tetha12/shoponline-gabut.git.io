@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    </style>
+    <!-- css.gg -->
+    <link href="https://css.gg/css" rel="stylesheet" />
+
+    <!-- UNPKG -->
+    <link href="https://unpkg.com/css.gg/icons/icons.css" rel="stylesheet" />
+
+    <!-- JSDelivr -->
+    <link href="https://cdn.jsdelivr.net/npm/css.gg/icons/icons.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <div class="hamburger-menu">
+            <i class="gg-menu"></i>
+        </div>
+        <div class="logo">PANDIA <span>Shop</span></div>
+        <div class="list">
+            <ul>
+                <li><h1 id="toggle">X</h1></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Discount</a></li>
+                <li><a href="">Payment</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <section class="container-hero">
+        <div class="kiri-content offer">
+            <h1>Xiaomei Oppabook 5</h1>
+            <p>IDR. 5.000.0000</p>
+            <button class="buy-hero">Buy</button>
+        </div>
+        <div class="kanan-1 offer">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eligendi.</p>
+            <button class="buy-hero">Buy</button>
+        </div>
+        <div class="kanan-2 offer">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, eligendi.</p>
+            <button class="buy-hero">Buy</button>
+        </div>
+    </section>
+
+    <section class="product-container">
+        <div class="judul">
+            <h1>PRODUK</h1>
+        </div>
+
+        <div class="product">
+            <div class="barang">
+                <img src="img/iphone.png" alt="" class="image">
+                <h4>IFruit Ultimate 15</h4>
+                <p value="12000000">IDR. 12.000.000</p>
+                <button class="buy-product">Buy</button>
+            </div>
+
+            <div class="barang">
+                <img src="img/iphone.png" alt="">
+                <h4>IFruit Ultimate 15</h4>
+                <p value="10000000">IDR. 10.000.000</p>
+                <button class="buy-product">Buy</button>
+            </div>
+
+        </div>
+        <div class="add-items">
+            <h2>+</h2>
+        </div>
+    </section>
+
+
+
+
+    <!-- Add Cart -->
+
+    <section class="container-cart">
+        <div class="strukPembayaran">
+            <h2>Pembayaran</h2>
+            <div class="cart"><i class="gg-shopping-cart"></i>
+                <p id="count">0</p>
+            </div>
+        </div>
+        <div class="cart-struck">
+            <div id="root"></div>
+            <div class="cartItem">
+                <h3>Your Cart is Empty</h3>
+            </div>
+            <div class="foot">
+                <h3>Total</h3>
+                <h2 id="total">Rp. 0</h2>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <footer class="end">
+        <div class="about-perusahaan">
+            <div class="logo">PANDIA <span>Shop</span></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio vitae est non id ex deserunt.</p>
+            <div class="medsos">
+                <a href=""><img src="img/Instagram_icon.png" alt=""></a>
+                <a href=""><img src="img/pngwing.com.png" alt=""></a>
+            </div>
+        </div>
+        <div class="popular">
+            <h1>Most Popular Product</h1>
+            <ul>
+                <li><a href="">Fifa F29</a></li>
+                <li><a href="">Sumsang Milky A54</a></li>
+                <li><a href="">ATUT BenBook Pro Duo</a></li>
+                <li><a href="">Kenopo Ideadpod Geming</a></li>
+                <li><a href="">FAKEME 15</a></li>
+            </ul>
+        </div>
+        <div class="customer">
+            <h1>Customer Service</h1>
+            <ul>
+                <li>FAQ</li>
+                <li>Call</li>
+                <li>Provacy Policy</li>
+            </ul>
+        </div>
+    </footer>
+
+    <footer id="footer">
+        <hr>
+        <p>Michael Tetha Sembiring Pandia</p>
+    </footer>
+
+
+    <!-- Add Items -->
+    <section class="container-additems">
+        <div class="close">X</div>
+        <div class="judul">
+            <h1>ADD ITEMS</h1>
+        </div>
+        <div class="form">
+
+
+            <label for="">Nama Barang</label> <input type="text" id="namabarang">
+            <label for="">Harga</label> <input type="number" id="price">
+            <label for="">jenis Barang</label><select id="jenisbarang">
+                <option value="nilai1">Smartphone</option>
+                <option value="nilai2">Laptop</option>
+                <option value="nilai3">Smartwatch</option>
+            </select>
+            <button id="add-product">Add</button>
+        </div>
+    </section>
+
+
+
+
+    <script src="additems.js"></script>
+    <script src="payment.js"></script>
+    <script src="responsive.js"></script>
+</body>
+
+</html>
